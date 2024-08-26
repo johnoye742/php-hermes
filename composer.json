@@ -1,0 +1,23 @@
+{
+    "name": "johnoye742/php-hermes",
+    "description": "A PHP package for working with Project Hermes.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    },
+    "require": {
+        "symfony/dotenv": "^7.1"
+    },
+    "license": "GPL 2.0",
+    "autoload": {
+        "psr-4": {
+            "Johnoye742\\PhpHermes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Oye",
+            "email": "olugbengajohnoye@gmail.com"
+        }
+    ]
+}
