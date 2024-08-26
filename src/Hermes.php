@@ -24,9 +24,9 @@ class Hermes {
    * @param $key
    * @param $value
    * @method set
-   * @return boolean
+   * @return bool
    */
-  public function set(string $key, string $value) : boolean {
+  public function set(string $key, string $value) : bool {
     // Message to be sent to hermes-server
     $message = "SET $key $value \n";
 
